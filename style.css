@@ -1,0 +1,102 @@
+body{
+    background-color: #f0f8ff;
+    color: #212529;
+}
+.main{
+    margin: 0rem 0rem 0rem 1.875rem;
+}
+.page{
+    margin-left: 3.125rem;
+}
+.Collaborate{
+    height: 2.188rem;
+    margin: 2.188rem 0rem 3.125rem 3.75rem;
+    padding: 0rem 0rem 0rem 1.5rem;
+    font-size: 1.5rem;
+}
+.Collaborate:hover{
+    margin-left: 2.813rem;
+    padding: 0rem 0rem 0rem 1rem;
+    font-size: 1.625rem;
+    color: rgb(103, 99, 99);
+}
+/* properties for h2 tag */
+.heading{
+    height: 8.125rem;
+    width: 26.25rem;
+    padding: 0.5rem 3rem 0rem 0rem;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.heading:hover{
+    font-size: 3.125rem;
+}
+/* setting the properties for EmbraceCloud class */
+.EmbraceCloud:hover{
+    border-bottom: 0.031rem solid #212529;
+    font-size: 3.125rem;
+}
+.EmbraceCloud{
+    height: 4.375rem;
+}
+/* settings the properties for h3 tag */
+.description{
+   height: 6rem;
+   width: 28.125rem;
+   font-weight: bolder;
+   padding: 1.875rem 0rem 0.625rem 0rem;
+   margin: 1.25rem 0rem 1.25rem 0rem;
+}
+/* setting properties for paragraph tag */
+.info{
+    font-size: 1.25rem;
+    margin: 0rem 2.188rem 1.25rem 0rem;
+    display: flex;
+}
+.info:hover{
+    color: rgb(103, 99, 99);
+}
+/* setting properties of arrow class */
+.arrow{
+    width: 26.25rem;
+    height: 3.75rem;
+   display: flex;
+}
+/* setting properties of arrow1 class */
+.arrow1{
+    display: flex;
+    width: 1.875rem;
+    height: 1.875rem;
+    justify-content: center;
+    align-items: center;
+}
+/* making class service a flex */
+.service{
+  display: flex;
+  justify-content: space-evenly;
+}
+/* width and height of images */
+.img{
+  width: 32rem;
+  height: 22rem;
+}
+/* rotating images after hovering */
+.img:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(360deg);
+    transition: all 1s linear 0.5s; 
+}
+/* setting properties of button */
+button{
+    width: 12.5rem;
+    height: 3.125rem;
+    margin: 4rem 0rem 2rem 3.125rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #212529;
+    color: #ffffff;    
+  }
+/* properties to control using toggle button */
+.ToggleButton{
+    background-color: #212529;
+    color: #f0f8ff;
+}
